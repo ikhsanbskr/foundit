@@ -1,0 +1,77 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "tertiary-container": "#676767",
+        "on-secondary-container": "#b4b5b5",
+        "on-tertiary": "#303030",
+        "surface-bright": "#393939",
+        "surface-container": "#1f1f1f",
+        "surface-container-high": "#2a2a2a",
+        background: "#131313",
+        "secondary-fixed-dim": "#c6c6c7",
+        "surface-variant": "#353535",
+        "on-error": "#690005",
+        "tertiary-fixed": "#e4e2e2",
+        "on-primary-fixed-variant": "#930000",
+        "on-tertiary-container": "#e8e6e6",
+        "secondary-fixed": "#e2e2e2",
+        "on-surface-variant": "#e8bcb6",
+        "on-primary": "#690000",
+        "inverse-primary": "#c00000",
+        "surface-tint": "#ffb4a8",
+        "primary-fixed-dim": "#ffb4a8",
+        outline: "#ae8881",
+        "on-secondary-fixed": "#1a1c1c",
+        "tertiary-fixed-dim": "#c8c6c6",
+        surface: "#131313",
+        "on-tertiary-fixed-variant": "#474747",
+        "surface-container-low": "#1b1b1b",
+        "on-error-container": "#ffdad6",
+        "surface-container-lowest": "#0e0e0e",
+        "inverse-on-surface": "#303030",
+        tertiary: "#c8c6c6",
+        "primary-container": "#d10000",
+        primary: "#d10000",
+        "on-primary-fixed": "#410000",
+        "on-primary-container": "#ffdfda",
+        "on-surface": "#e2e2e2",
+        "primary-fixed": "#ffdad4",
+        "surface-container-highest": "#353535",
+        "error-container": "#93000a",
+        "on-background": "#e2e2e2",
+        "inverse-surface": "#e2e2e2",
+        error: "#ffb4ab",
+        "on-secondary": "#2f3131",
+        secondary: "#ffffff",
+        "outline-variant": "#5e3f3a",
+        "on-secondary-fixed-variant": "#454747",
+        "on-tertiary-fixed": "#1b1c1c",
+        "secondary-container": "#454747",
+        "surface-dim": "#131313"
+      },
+      borderRadius: {
+        DEFAULT: "0px",
+        lg: "0px",
+        xl: "0px",
+        full: "9999px"
+      },
+      fontFamily: {
+        headline: ["Space Grotesk", "sans-serif"],
+        display: ["Space Grotesk", "sans-serif"],
+        body: ["Space Grotesk", "sans-serif"],
+        label: ["Space Grotesk", "sans-serif"]
+      }
+    },
+  },
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/container-queries'),
+  ],
+}

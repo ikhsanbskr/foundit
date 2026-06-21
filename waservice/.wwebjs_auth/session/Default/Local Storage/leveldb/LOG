@@ -1,0 +1,8 @@
+2026/06/21-16:28:04.672 5fdc Reusing MANIFEST F:\laragon-6.0.0\www\wa-service\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2026/06/21-16:28:04.676 5fdc Recovering log #3
+2026/06/21-16:28:04.677 5fdc Level-0 table #3: started
+2026/06/21-16:28:04.684 5fdc Level-0 table #3: 20473 bytes OK
+2026/06/21-16:28:04.689 5fdc Delete type=0 #3
+2026/06/21-19:28:24.036 5fdc Level-0 table #6: started
+2026/06/21-19:28:24.060 5fdc Level-0 table #6: 12911 bytes OK
+2026/06/21-19:28:24.067 5fdc Delete type=0 #4
